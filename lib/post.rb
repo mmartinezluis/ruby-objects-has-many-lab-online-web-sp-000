@@ -8,7 +8,15 @@ class Post
   end
 
   def self.all
+<<<<<<< HEAD
     @@all
+=======
+    @all
+  end
+
+  def author
+    self.author
+>>>>>>> 59f9f44c3b771fdc85ff303ae446950999acee62
   end
 
   def author_name
